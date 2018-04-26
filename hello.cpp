@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
-    cout<<"anamul is a bad boy";
+    cout<<"";
     cout<<"Test Git Repository!!!" << endl;
+    cout << "GitHub Project Group !!!" << endl;
 }
