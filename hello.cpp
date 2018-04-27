@@ -2,7 +2,7 @@
 using namespace std;
   int n;
 
-void  First_display()
+void  Fuction_one()
 {
 
   cout<<"\t1.If I want to change \n\t2.If I don't want to change.\n";
@@ -84,7 +84,7 @@ cout << "\t\t\t\tA Prescription history : \n\n";
   cin>>n;
   if(n==1)
   {
-    First_display();
+    Fuction_one();
 
   }
   if(n==2)
