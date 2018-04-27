@@ -4,6 +4,16 @@ using namespace std;
 
 void  First_display()
 {
+
+  cout<<"\t1.If I want to change \n\t2.If I don't want to change.\n";
+  cin>>n;
+  if(n==1)
+  {
+    cout<<"It Seclo before dinner and breakfast.\n";
+  }
+  else{
+   cout<<"Do the same things.";
+
   cout<<"\t1.If you wish to change \n\t2.no\n";
   cin>>n;
   if(n==1)
@@ -12,11 +22,16 @@ void  First_display()
   }
   else{
    cout<<"continue as before";
+
   }
 }
 void  second_display()
 {
+
+  cout<<"\t1.If you wish to modify \n\t2.You don't want to modify.\n";
+
   cout<<"\t1.If you wish to modify \n\t2.no\n";
+
   cin>>n;
   if(n==1)
   {
