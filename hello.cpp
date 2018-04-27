@@ -152,7 +152,36 @@ void  second_display()
  cout << "You will suffer in the long run.";
   }
 }
+void  third_display()
+{
+  cout<<"\t1.If you wish to change \n\t2.no\n";
+  cin>>n;
+  if(n==1)
+  {
+    cout << "Change the formularity\n";
+        cout << "Take new Formular as:\n";
+        cout << "\t\t1.Sudfed\n";
+        cout << "\t\t2.DayQuil\n";
+        cout << "\t\t3.NyQuil\n";
+        cin >> n;
+        if(n == 1)
+        {
+            cout << "Take this medicine for  cold\n";
+        }
+        else if (n == 2)
+        {
+            cout << "DayQuil take 2 times\n";
+        }
+        else if (n == 3)
+        {
+            cout << "NyQuil take 3 times before eating breakfast, dinner and launch.\n";
+        }
+  }
+  else{
+   cout<<"Nothing";
 
+  }
+}
 int main()
 {
 cout << "\t\t\t\tA prescribing medication story \n\n";
