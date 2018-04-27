@@ -8,7 +8,7 @@ int n;
 
 
 int n;
-void  First_display()
+void  First_function()
 {
     cout<<"\t1.If I want to change \n\t2.If I don't want to change.\n";
     cin>>n;
@@ -21,7 +21,7 @@ void  First_display()
         cout<<"Do the same things.";
     }
 }
-void  second_display()
+void  second_function()
 {
     cout<<"\t1.If you wish to modify \n\t2.You don't want to modify.\n";
     cin>>n;
@@ -34,7 +34,7 @@ void  second_display()
         cout << "You will suffer in the long run.";
     }
 }
-void  third_display()
+void  third_function()
 {
     cout<<"\t1.If you wish to change \n\t2.no change\n";
     cin>>n;
@@ -78,29 +78,29 @@ int main()
         cin>>n;
         /*if(n==1)
         {
-            First_display();
+            First_function();
 
         }
         if(n==2)
         {
-            second_display();
+            second_function();
 
         }
         if(n==3)
         {
-            third_display();
+            third_function();
 
         }*/
         switch(n)
         {
         case 1:
-            First_display();
+            First_function();
             break;
         case 2:
-            second_display();
+            second_function();
             break;
         case 3:
-            third_display();
+            third_function();
             break;
 
 
@@ -113,7 +113,7 @@ int main()
 
   int n;
 
-void  First_display()
+void  First_function()
 {
 
   cout<<"\t1.If I want to change \n\t2.If I don't want to change.\n";
@@ -136,7 +136,7 @@ void  First_display()
 
   }
 }
-void  second_display()
+void  second_function()
 {
 
   cout<<"\t1.If you wish to modify \n\t2.You don't want to modify.\n";
@@ -152,7 +152,7 @@ void  second_display()
  cout << "You will suffer in the long run.";
   }
 }
-void  third_display()
+void  third_function()
 {
   cout<<"\t1.If you wish to change \n\t2.no\n";
   cin>>n;
@@ -195,17 +195,18 @@ cout << "\t\t\t\tA prescribing medication story \n\n";
   cin>>n;
   if(n==1)
   {
-    First_display();
+    First_function();
 
   }
   if(n==2)
   {
-    second_display();
+    second_function
+    ();
 
   }
   if(n==3)
   {
-    third_display();
+    third_function();
 
   }
         cout << "\n\n\t\t\t\t\tDo you want to continue?" << endl;
